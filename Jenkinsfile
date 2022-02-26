@@ -2,8 +2,8 @@ pipeline {
 
 agent { node { label 'Linux-Demo' } }
 tools {
-        maven 'maven3.3.9' 
-        jdk 'jdk1.8'
+        maven 'maven' 
+        jdk 'JDK'
     }
 stages {
     stage('Run in parallel') {
