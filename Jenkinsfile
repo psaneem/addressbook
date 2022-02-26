@@ -1,6 +1,6 @@
 pipeline {
 
-agent { node { label 'Linux-Demo' } }
+agent { node { label 'pat' } }
 tools {
         maven 'maven' 
         jdk 'JDK'
